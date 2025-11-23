@@ -21,4 +21,4 @@ jobs:
 
     - name: Sync HTML/CSS files to S3
       run: |
-        aws s3 sync . s3://dlittle-cicd-pipeline2025 --exclude ".*" --include "*.html" --include "*.css"
+        aws s3 sync . s3://cicd-demo-bucket-2025 --exclude ".*" --include "*.html" --include "*.css"
